@@ -12,6 +12,7 @@ System info: (Fedora Workstation + KDE Plasma Wayland)
   - [dnf Optimization](#dnf-Optimization)
   - [SSH Session Keep-Alive](#ssh-session-keepalive)
   - [Java](#java)
+  - [GitHub Authentication](#github-authentication)
   - [Howdy Face Recognition](#howdy-face-recognition)
   - [Remove KDE Stuff](#remove-kde-stuff)
   - [Remove Gnome Junk](#remove-gnome-junk)
@@ -22,8 +23,8 @@ System info: (Fedora Workstation + KDE Plasma Wayland)
 - [Applications](#applications)
   - [Firefox](#firefox)
   - [OneDrive](#onedrive)
-  - [yt-dlp](#yt-dlp)
   - [Jetbrains Toolbox](#jetbrains-toolbox)
+  - [yt-dlp](#yt-dlp)
 
 ## Resource Management
 
@@ -90,6 +91,26 @@ To switch between installed java versions do:
 
 ```shell
 sudo alternatives --config java
+```
+
+### GitHub Authentication
+
+```shell
+ssh-keygen -t ed25519 -f /home/niko/.ssh/id_github_ed25519
+```
+
+Add to config at `/home/niko/.ssh/config`:
+
+```shell
+Host github.com
+  User git
+  IdentityFile ~/.ssh/id_github_ed25519
+```
+
+Example remote config:
+
+```shell
+git remote set-url origin git@github.com:cyb3rko/fedokde-handbook.git
 ```
 
 ### Howdy Face Recognition
