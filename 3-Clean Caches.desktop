@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[de_DE]=
+Comment=
+Exec=/home/niko/Dokumente/Skripte/clean-caches.sh
+GenericName[de_DE]=
+GenericName=
+Icon=org.kde.granatier
+MimeType=
+Name[de_DE]=Clean Caches
+Name=Clean Caches
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

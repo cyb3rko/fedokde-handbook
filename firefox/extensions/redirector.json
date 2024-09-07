@@ -1,0 +1,41 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2024-07-11T18:12:43.435Z",
+    "redirects": [
+        {
+            "description": "YouTube Subs",
+            "exampleUrl": "https://www.youtube.com/",
+            "exampleResult": "https://www.youtube.com/feed/subscriptions",
+            "error": null,
+            "includePattern": "https://www.youtube.com/",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.youtube.com/feed/subscriptions",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "history"
+            ]
+        },
+        {
+            "description": "Moodle Modules",
+            "exampleUrl": "https://lernen.h-da.de/",
+            "exampleResult": "https://lernen.h-da.de/my/",
+            "error": null,
+            "includePattern": "https://lernen.h-da.de/",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://lernen.h-da.de/my/",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

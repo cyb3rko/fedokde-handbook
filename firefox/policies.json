@@ -1,0 +1,111 @@
+{
+  "policies": {
+    "AppAutoUpdate": false,
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "DisabledCiphers": {
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_DHE_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_DHE_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_RSA_WITH_AES_128_GCM_SHA256": true,
+      "TLS_RSA_WITH_AES_256_GCM_SHA384": true,
+      "TLS_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_RSA_WITH_3DES_EDE_CBC_SHA": true
+    },
+    "DisablePocket": true,
+    "DisableSetDesktopBackground": true,
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "HardwareAcceleration": true,
+    "Homepage": {
+      "StartPage": "homepage"
+    },
+    "LegacySameSiteCookieBehaviorEnabled": false,
+    "OfferToSaveLogins": false,
+    "PasswordManagerEnabled": false,
+    "PictureInPicture": {
+      "Enabled": false,
+      "Locked": true
+    },
+    "Preferences": {
+      "browser.aboutConfig.showWarning": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.bookmarks.restore_default_bookmarks": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.bookmarks.showMobileBookmarks": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "browser.search.region": {
+        "Value": "DE",
+        "Status": "locked"
+      },
+      "browser.sessionstore.resume_from_crash": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.startup.couldRestoreSession.count": {
+        "Value": 0,
+        "Status": "locked"
+      },
+      "browser.translations.automaticallyPopup": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.translations.enable": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.translations.panelShown": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.urlbar.showSearchSuggestionsFirst": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.vpn_promo.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "dom.w3c_touch_events.enabled": {
+        "Value": 0,
+        "Status": "locked"
+      },
+      "gfx.webrender.all": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "pdfjs.enableScripting": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "widget.gtk.native-context-menus": {
+        "Value": false,
+        "Status": "locked"
+      }
+    },
+    "PromptForDownloadLocation": false,
+    "RequestedLocales": "de",
+    "ShowHomeButton": false,
+    "UserMessaging": {
+      "SkipOnboarding": true
+    }
+  }
+}

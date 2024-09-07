@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[de_DE]=
+Comment=
+Exec=/home/niko/Dokumente/Skripte/show-partitions.sh
+GenericName[de_DE]=
+GenericName=
+Icon=drive-removable-media
+MimeType=
+Name[de_DE]=Show Partitions
+Name=Show Partitions
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[de_DE]=
+Comment=
+Exec=/home/niko/Dokumente/Skripte/distro-info.sh
+GenericName[de_DE]=
+GenericName=
+Icon=hwinfo
+MimeType=
+Name[de_DE]=Distro Info
+Name=Distro Info
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
