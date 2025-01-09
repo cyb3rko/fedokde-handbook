@@ -50,11 +50,7 @@ find . -type f -size +100M
 To automatically clear older files in the trash, run the following (example: files older than 40 days):
 
 ```shell
-sudo dnf install pipx
-pipx install autotrash
-```
-
-```shell
+uv tool install autotrash
 autotrash -d 40 --install
 ```
 
