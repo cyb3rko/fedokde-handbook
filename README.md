@@ -8,9 +8,10 @@ System info: (Fedora Workstation + KDE Plasma Wayland)
   - [Large file and folder monitor](#large-file-and-folder-monitor)
   - [Find large files](#find-large-files)
   - [AutoTrash](#autotrash)
+  - [journalctl](#journalctl)
 - [Services](#services)
-  - [dnf Optimization](#dnf-Optimization)
-  - [SSH Session Keep-Alive](#ssh-session-keepalive)
+  - [dnf Optimization](#dnf-optimization)
+  - [SSH Session Keep-Alive](#ssh-session-keep-alive)
   - [Java](#java)
   - [GitHub Authentication](#github-authentication)
   - [Howdy Face Recognition](#howdy-face-recognition)
@@ -22,9 +23,12 @@ System info: (Fedora Workstation + KDE Plasma Wayland)
 - [Nvidia Graphics](#nvidia-graphics)
 - [Applications](#applications)
   - [Firefox](#firefox)
+    - [Extensions](#extensions)
   - [OneDrive](#onedrive)
   - [Jetbrains Toolbox](#jetbrains-toolbox)
   - [yt-dlp](#yt-dlp)
+- [TLS]
+  - [Import CA](#import-ca)
 
 ## Resource Management
 
@@ -54,6 +58,20 @@ uv tool install autotrash
 autotrash -d 40 --install
 ```
 
+### journalctl
+
+See space used by system logs:
+
+```shell
+journalctl --disk-usage
+```
+
+Set maximum log retention time in `/usr/lib/systemd/journald.conf`:
+
+```shell
+MaxRetentionSec=1month
+```
+
 ## Services
 
 ### dnf Optimization
@@ -64,6 +82,7 @@ Change the following entries at `/etc/dnf/dnf.conf`:
 max_parallel_downloads=10
 deltarpm=True
 fastestmirror=True
+install_weak_deps=False
 ```
 
 ### SSH Session Keep-Alive
@@ -275,3 +294,12 @@ curl -fsSL https://raw.githubusercontent.com/nagygergo/jetbrains-toolbox-install
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
 sudo chmod a+rx /usr/local/bin/yt-dlp
 ```
+
+## TLS
+
+### Import CA
+
+1. Get root rights with `sudo -i`
+2. Copy certificate file (plaintext, not binary) to `/usr/share/pki/ca-trust-source/anchors`
+3. Run `update-ca-trust`
+4. (Test TLS connection with `openssl s_client -connect <host>:443`)

@@ -1,0 +1,21 @@
+{
+  "PasswordManagerEnabled": false,
+  "HomepageIsNewTabPage": true,
+  "RestoreOnStartup": 5,
+  "DefaultSearchProviderSuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+  "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
+  "DefaultSearchProviderEnabled": true,
+  "DefaultSearchProviderName": "DuckDuckGo",
+  "TranslateEnabled": false,
+  "SyncDisabled": true,
+  "SideSearchEnabled": false,
+  "showFullUrlsInAddressBar": true,
+  "ImportAutofillFormData": false,
+  "ImportBookmarks": false,
+  "ImportHistory": false,
+  "ImportHomepage": false,
+  "ImportSavedPasswords": false,
+  "ImportSearchEngine": false,
+  "ForcedLanguages": ["de","en"],
+  "DefaultBrowserSettingEnabled": false
+}

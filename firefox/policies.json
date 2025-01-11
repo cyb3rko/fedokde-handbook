@@ -56,6 +56,14 @@
         "Value": "DE",
         "Status": "locked"
       },
+      "browser.sessionstore.max_tabs_undo": {
+        "Value": 0,
+        "Status": "locked"
+      },
+      "browser.sessionstore.max_windows_undo": {
+        "Value": 0,
+        "Status": "locked"
+      },
       "browser.sessionstore.resume_from_crash": {
         "Value": false,
         "Status": "locked"
