@@ -23,11 +23,10 @@ System info: (Fedora Workstation + KDE Plasma Wayland)
 - [Nvidia Graphics](#nvidia-graphics)
 - [Applications](#applications)
   - [Firefox](#firefox)
-    - [Extensions](#extensions)
   - [OneDrive](#onedrive)
   - [Jetbrains Toolbox](#jetbrains-toolbox)
   - [yt-dlp](#yt-dlp)
-- [TLS]
+- [TLS](#tls)
   - [Import CA](#import-ca)
 
 ## Resource Management
