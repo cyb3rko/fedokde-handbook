@@ -1,3 +1,5 @@
+⚠️ Switched to [CachyOS KDE](https://github.com/cyb3rko/cachykde-handbook)
+
 # Fedora KDE Handbook
 
 System info: (Fedora Workstation + KDE Plasma Wayland)
